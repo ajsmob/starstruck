@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Meet me where stars align",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 2, 
       },
     ],
   },
@@ -63,9 +63,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#707171",
+      approved: "#50895f",
+      denied: "#733a3a",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -92,8 +92,8 @@ export const botConfig = {
       secondary: "#2F3136", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
+      success: "#50895f", 
+      error: "#733a3a", 
       warning: "#FEE75C", 
       info: "#3498DB", 
 
