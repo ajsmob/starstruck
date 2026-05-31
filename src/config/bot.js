@@ -292,7 +292,7 @@ export const botConfig = {
     defaultMessage: "Click the button below to verify yourself and gain access to the server!",
 
     // Text on the verification button.
-    defaultButtonText: "Verify",
+    defaultButtonText: "Approval",
 
     // Automatic verification behavior.
     autoVerify: {
@@ -359,11 +359,11 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "{user} has appeared in {server}! We now have {memberCount} members!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      "{user} has left the server. We now have {memberCount} members.",
+      "{user} has disappeared. We now have {memberCount} members.",
     // Channel ID for welcome messages.
     defaultWelcomeChannel: null,
     // Channel ID for goodbye messages.
@@ -427,7 +427,7 @@ export const botConfig = {
     missingPermissions:
       "I am missing required permissions to perform this action.",
     commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+    maintenanceMode: "Starstruck is currently sleeping, Please stop by another time.",
   },
 
   // =========================
