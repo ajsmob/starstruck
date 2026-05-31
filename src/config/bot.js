@@ -104,10 +104,10 @@ export const botConfig = {
 
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
-      green: "#57F287",
+      green: "#50895f",
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
-      red: "#ED4245",
+      red: "#733a3a",
       black: "#000000",
 
       // Feature-specific colors.
@@ -156,11 +156,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Stardust",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Stardust",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "✧",
     },
 
     // Starting balance for new users.
@@ -170,11 +170,11 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 170,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 2000,
+    workMax: 30000,
 
     // Beg command random payout range.
     begMin: 5,
