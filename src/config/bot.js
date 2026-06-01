@@ -95,7 +95,7 @@ export const botConfig = {
       success: "#50895f", 
       error: "#733a3a", 
       warning: "#FEE75C", 
-      info: "#3498DB", 
+      info: "#c5c0ba", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
